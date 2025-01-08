@@ -15,3 +15,11 @@ menu.addEventListener("click", (e) => {
             break;
     };
 });
+
+
+let body = document.querySelector("body");
+
+body.addEventListener("mousemove", (e) => {
+    let tracker = document.querySelector("#tracker");
+    tracker.innerText = `${e.clientX} / ${e.clientY}`;
+});
