@@ -1,0 +1,33 @@
+html {
+    font-family: "Copperplate", sans-serif;
+    font-size: 36px;
+    height: 100dvh;
+}
+
+body {
+    min-height: 100dvh;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0px;
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    min-height: 100dvh;
+}
+
+a:link {
+    text-decoration: none;
+    color: black;
+}
+
+a:visited {
+    color: black;
+}
+
+a:active {
+    color: gray;
+}
