@@ -8,19 +8,31 @@ html {
 
 body {
     min-height: 100dvh;
+    padding: 0px 24px;
     margin: 0px;
     display: flex;
     flex-direction: row;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
+    flex-wrap: wrap;
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 52px;
+    padding: 0px;
+    margin: 0px;
+    margin-bottom: 16px;
+}
+
+ul {
+    padding: 0px;
+    margin: 0px;
 }
 
 li {
     list-style-type: none;
+    padding: 0px;
+    margin: 0px;
 }
 
 a {
@@ -35,7 +47,18 @@ a:hover {
     color: gray;
 }
 
+.left, .right  {
+    width: 50dvh;
+    margin: 24px 0px;
+}
+
 img {
-    width: 60dvh;
-    height: auto;
+    width: 50dvh;
+    padding: 0px;
+    margin: 0px;
+}
+
+p {
+    padding: 0px;
+    margin: 0px;
 }
