@@ -9,6 +9,14 @@ html {
 body {
     min-height: 100dvh;
     margin: 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+h1 {
+    font-size: 48px;
 }
 
 li {
@@ -25,4 +33,9 @@ a:visited {
 
 a:hover {
     color: gray;
+}
+
+img {
+    width: 60dvh;
+    height: auto;
 }
