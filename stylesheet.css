@@ -3,11 +3,11 @@
 }
 
 html {
-    height: 100dvh;
+    height: 100vh;
 }
 
 body {
-    min-height: 100dvh;
+    min-height: 100vh;
     padding: 0px 24px;
     margin: 0px;
     display: flex;
@@ -54,12 +54,12 @@ a:hover {
 }
 
 .left, .right  {
-    width: 50dvh;
+    width: 50vh;
     margin: 24px 0px;
 }
 
 img {
-    width: 50dvh;
+    width: 50vh;
     padding: 0px;
     margin: 0px;
 }
